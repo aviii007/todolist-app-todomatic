@@ -1,5 +1,10 @@
 import React from "react";
 
+function handleSubmit(e) {
+    e.preventDefault();
+    alert('Hello, world!');
+  }
+  
 function Form(props) {
   return (
     <form>
